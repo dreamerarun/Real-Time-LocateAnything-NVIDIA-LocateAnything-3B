@@ -1,0 +1,32 @@
+# Core numerical / image processing
+
+numpy>=2.2
+Pillow>=10
+opencv-python
+
+# Deep learning
+
+# Install the CUDA-compatible PyTorch build separately if needed.
+
+torch
+torchvision
+
+# Hugging Face / NVIDIA model
+
+transformers==4.57.1
+safetensors
+
+# Model loading and optimization
+
+accelerate
+bitsandbytes
+
+# Supporting libraries
+
+decord2
+peft
+lmdb
+
+# Visualization
+
+matplotlib
